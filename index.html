@@ -1,0 +1,61 @@
+<!DOCTYPE >
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js-Exam</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/exam.css">
+    <link rel="icon" href="logo.png">
+</head>
+<body class="bg-black">
+
+
+    <div id="home" class="home d-flex vh-100">
+        <div class="load">Loading&#8230;</div>
+            <div class="sidebar d-flex position-fixed top-0 bottom-0 close" id="sidebar">
+            <div class="left close bg-black text-white">
+                <ul class="list-unstyled pt-4 ps-4 links">
+                    <li class=" pe-4 " id="search"><a class="text-decoration-none text-white " href="#">Search</a></li>
+                    <li class=" pt-4 "><a class="text-decoration-none text-white" href="index.html">Home</a></li>
+                    <li class=" pt-4 " id="category"><a class="text-decoration-none text-white" href="#">Categories</a></li>
+                    <li class=" pt-4 " id="area"><a class="text-decoration-none text-white" href="#">Area</a></li>
+                    <li class=" pt-4 " id="ingredients"><a class="text-decoration-none text-white" href="#">ingredients</a></li>
+                    <li class=" pt-4 " id="contact"><a class="text-decoration-none text-white" href="#">Contact Us</a></li>
+                </ul>
+                <div class="copy pb-2  px-4 w-100">
+                    <div class="icon d-flex pb-3">
+                        <i class="fa-brands fa-facebook fs-5"></i>
+                        <i class="fa-brands fa-twitter ps-1 fs-5"></i>
+                        <i class="fa-solid fa-globe ps-1 fs-5"></i>
+                    </div>
+                    <p class="">Copyright Â© 2019 All Rights
+                        Reserved.</p>
+                </div>
+            </div>
+            
+            <div class="right  close bg-white py-4 w-14">
+                <div class="icon"><img class="w-100 " src="logo.png" alt=""></div>
+                <div class="open-close position-relative" id="open">
+                    <i class="fa-solid fa-bars fs-2 px-2 cursor open position-absolute"></i>
+                    <i class="fa-solid fa-xmark close fs-2 px-2 cursor position-absolute"></i>
+                </div>
+                <div class="social text-center"><i class="fa-solid fa-globe fs-5 cursor px-3"></i>
+                    <i class="fa-solid fa-share-nodes fs-5 px-3 cursor pt-1"></i>                    
+                </div>
+            </div>
+        </div>
+        <div class="container data-container">
+            <div class="search d-flex justify-content-center w-100 d-none">
+                <input id="name" class="name w-40 me-4 p-2 mt-4" placeholder="Search By Name" type="text">
+                <input id="f-letter" class="first-letter w-40 p-2 mt-4" placeholder="Search By First Letter" type="text">
+            </div>
+            <div class="row gy-4 py-5">
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
